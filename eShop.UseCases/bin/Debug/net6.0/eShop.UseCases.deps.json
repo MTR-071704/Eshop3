@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "eShop.UseCases/1.0.0": {
+        "dependencies": {
+          "eShop.CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "eShop.UseCases.dll": {}
+        }
+      },
+      "eShop.CoreBusiness/1.0.0": {
+        "runtime": {
+          "eShop.CoreBusiness.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShop.UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
